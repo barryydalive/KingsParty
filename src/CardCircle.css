@@ -1,0 +1,32 @@
+/* CardCircle.css */
+.card-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-space {
+  position: absolute;
+  width: 20vw; /* Set the width of the center space */
+  height: 20vw; /* Set the height of the center space */
+  background-color: transparent; /* Make it transparent */
+  border-radius: 50%; /* Make it a circle */
+}
+
+.card {
+  position: absolute;
+  width: 20vw; /* Set the width of your card images in percentage of viewport width */
+  height: 28vw; /* Set the height of your card images in percentage of viewport width */
+  max-width: 120px; /* Set the maximum width of the cards */
+  max-height: 168px;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
